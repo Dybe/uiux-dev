@@ -64,35 +64,23 @@ object-fit:cover;
 
 .itemLists {
   display:flex;
-  flex-wrap: wrap;
-  max-height: 1440px;
 }
 .unbookedTrips {
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
-  flex-wrap: wrap;
 }
 .bookedCart {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 .bookedTrips {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 .total {
   width: 50%;
   margin: 0 auto;
 }
-
-.filterbar a:visited {
-  color:black;
-  pointer-events: none;
-  cursor: default; 
- }
 
 .App {
   text-align: center;
