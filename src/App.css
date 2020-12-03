@@ -62,7 +62,6 @@ object-fit:cover;
 
 .itemLists {
   display:flex;
-  background-color:black;
 }
 .unbookedTrips {
   display: flex;
