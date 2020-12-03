@@ -1,0 +1,138 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  max-width: 2000px;
+  max-height: 2000px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+  max-height:2000x ;
+  max-width: 2000px;
+  justify-content: center;
+  align-items: center;
+
+}
+.bars {
+  display: flex;
+}
+.filterbar {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.barItem {
+  padding-left: 30x;
+  padding-right: 30x;
+  margin-right: 10px;
+  
+}
+
+.ItemCard {
+  display: flex;
+  flex-direction: column;
+}
+.itemName {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.ItemInfo {
+  display: flex;
+
+}
+.info {
+  height: 50px;
+  width: 120px;
+  padding-left: 7px;
+}
+
+.ItemImage{
+ width:500px;
+ height: 300px;
+ padding-bottom: 10px;
+}
+
+.ItemImage img {
+width: 500px;
+height: 300px;
+object-fit:cover;
+}
+
+.itemLists {
+  display:flex;
+  flex-wrap: wrap;
+  max-height: 1440px;
+}
+.unbookedTrips {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  flex-wrap: wrap;
+}
+.bookedCart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.bookedTrips {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.total {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.filterbar a:visited {
+  color:black;
+  pointer-events: none;
+  cursor: default; 
+ }
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
