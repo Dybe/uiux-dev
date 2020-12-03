@@ -107,7 +107,7 @@ class FilteredList extends React.Component {
                     <Nav.Item><Nav.Link className="barItem" eventKey="highest" onSelect={this.arrangeItems}> Looking to Treat Yourself?  See Most Lavish First </Nav.Link></Nav.Item>
                 </Navbar>
             </div>
-            {this.state.form != "All" &&
+            {this.state.form !== "All" &&
 
                 <h3> You are Now Viewing Your Bookings And Our {this.state.form} Experiences in {this.state.region} of Africa</h3>
             }
@@ -125,6 +125,7 @@ class FilteredList extends React.Component {
                 else if (lowest === 0) {
                     return a.name - b.name
                 }
+                    return;
             }
             )} bookFunc={this.props.bookFunc} />
         </div>
